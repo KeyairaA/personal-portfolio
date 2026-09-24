@@ -58,8 +58,8 @@ export const PROJECTS = [
     kicker: "Shipped",
     title: "Court Vision",
     description:
-      "Interactive WNBA analytics dashboard built with Python, Streamlit, and the nba_api. Player comparison, career arc tracking, leaderboards, and advanced efficiency metrics across 7 seasons of live data.",
-    technologies: ["Python", "Pandas", "Streamlit", "Plotly"],
+      "A WNBA analytics site that traces how the league's game changed from the last ten seasons, with league trends, leaderboards, player profiles and head-to-head comparisons. A scheduled Python pipeline does the analysis ahead of time and publishes checked, versioned JSON, so the React site loads instantly from a CDN and every number on it can be traced back to a box score.",
+    technologies: ["Python", "React", "Typescript", "Tailwind", "Github Actions", "Vercel"],
   },
 ];
 
@@ -68,6 +68,6 @@ export const CONTACT = {
 };
 
 export const SOCIALS = {
-  linkedin: "https://linkedin.com/in/keyaira-austin-4367691a3/",
+  linkedin: "www.linkedin.com/in/keyaira-austin-4367691a3/",
   github: "https://github.com/KeyairaA",
 };
